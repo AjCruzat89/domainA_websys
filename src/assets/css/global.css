@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+.card {
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+}
